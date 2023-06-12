@@ -13,7 +13,7 @@ RUN npm i -g pnpm
 # install dependencies
 RUN pnpm install
 
-# start app
+# start app TEST
 RUN pnpm run build
 EXPOSE 3000
 CMD pnpm run start
